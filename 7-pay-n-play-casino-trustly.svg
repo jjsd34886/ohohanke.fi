@@ -1,0 +1,23 @@
+<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg7" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0369a1"/>
+      <stop offset="100%" stop-color="#1e3a5f"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="12" fill="url(#bg7)"/>
+  <!-- Card shape -->
+  <rect x="8" y="16" width="48" height="32" rx="5" fill="#0c4a6e"/>
+  <rect x="8" y="16" width="48" height="32" rx="5" fill="none" stroke="#38bdf8" stroke-width="1.2"/>
+  <!-- Card stripe -->
+  <rect x="8" y="24" width="48" height="7" fill="#082f49"/>
+  <!-- Card dots (chip) -->
+  <rect x="14" y="32" width="12" height="9" rx="2" fill="#fbbf24" opacity="0.8"/>
+  <!-- Trustly T letter -->
+  <text x="32" y="40" font-family="Georgia, serif" font-size="16" font-weight="900" fill="#ffffff" text-anchor="middle" opacity="0.15">T</text>
+  <!-- Big checkmark badge -->
+  <circle cx="46" cy="46" r="13" fill="#16a34a"/>
+  <polyline points="39,46 44,51 53,40" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- PNP label -->
+  <text x="20" y="52" font-family="Arial Black" font-size="5" font-weight="900" fill="#7dd3fc" text-anchor="middle" letter-spacing="0.5">P·N·P</text>
+</svg>
